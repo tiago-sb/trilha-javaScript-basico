@@ -6,7 +6,7 @@ funcao()
 
 // atribuição à variável 
 var receberFuncao = function() {
-    
+    console.log("função atribuida a veriável")
 }
 
 // arrow function
