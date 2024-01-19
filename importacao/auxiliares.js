@@ -1,15 +1,22 @@
-// gets - recebe valores e print
+// gets - recebe valores
+// print - printa os valores
 
-const entradas = (5, 50, 10, 98, 23)
-let i = 0
+const entradas = [5, 50, 10, 98, 23];
+let i = 0;
+
+
 function gets(){
-    const valor = entradas[i]
-    i = i + 1
-    return valor
+    const valor = entradas[i];
+    i++;
+    return valor;
 }
 
 function print(texto){
-    console.log(texto)
+    console.log(texto);
 }
 
-module.exports = {gets, print}
+// exportando as funções criadas no nosso arquivo
+module.exports = { 
+    gets: gets,
+    print: print 
+};
